@@ -20,6 +20,9 @@ Sentimaniac is an exciting project that harnesses the power of Python's robust m
 - **Scikit-Learn Integration**: Train your sentiment classifier with ease using the renowned Scikit-Learn library.
 - **Interactive Visualization**: Visualize your model's performance and insights with beautiful plots generated using Matplotlib.
 
+## Dataset propositions:
+- [Sentiment Analysis Dataset- ABHISHEK SHRIVASTAVA](https://www.kaggle.com/datasets/abhi8923shriv/sentiment-analysis-dataset)
+
 ## Getting Started
 
 ### Installation
