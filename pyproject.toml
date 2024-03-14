@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sentimaniac"
+version = "0.1.0"
+description = "🤪 Being crazy with 3 labels through Python Machine Learning."
+authors = ["Konrad Konieczny <konradkon@duck.com>", "Kamil Kotkowski <kamilkotkowski17@gmail.com>", "Daniil Ivzhenko <daniilagimail.pl@gmail.com>", "Jakub Korzeniowski <kubako2000@gmail.com>", "Dawid Kurpiewski <Dawidowsky77@gmail.com>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+nltk = "^3.8.1"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+scikit-learn = "^1.4.1.post1"
+matplotlib = "^3.8.3"
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["E501", "INP001", "D203", "D213"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
