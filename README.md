@@ -22,6 +22,8 @@ Sentimaniac is an exciting project that harnesses the power of Python's robust m
 
 ## Dataset propositions:
 - [Sentiment Analysis Dataset- ABHISHEK SHRIVASTAVA](https://www.kaggle.com/datasets/abhi8923shriv/sentiment-analysis-dataset)
+- [ChatGPT sentiment analysis](https://www.kaggle.com/datasets/charunisa/chatgpt-sentiment-analysis/data)
+- [Twitter and Reddit Sentimental analysis Dataset](https://www.kaggle.com/datasets/cosmos98/twitter-and-reddit-sentimental-analysis-dataset/data)
 
 ## Getting Started
 
