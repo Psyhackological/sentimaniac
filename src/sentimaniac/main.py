@@ -1,25 +1,19 @@
+# Variable encoding and decoding for XGBoost
+import re  # Regular expressions
 import warnings
 from pathlib import Path
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from wordcloud import WordCloud  # Word visualization
+
 import matplotlib.pyplot as plt  # Plotting properties
-import seaborn as sns  # Plotting properties
+import nltk
+import pandas as pd
+from nltk import word_tokenize
 from sklearn.feature_extraction.text import CountVectorizer  # Data transformation
-from sklearn.model_selection import train_test_split  # Data testing
 from sklearn.linear_model import LogisticRegression  # Prediction Model
 
 # Comparison between real and predicted
 from sklearn.metrics import accuracy_score
-from xgboost import XGBClassifier
-from sklearn.preprocessing import (
-    LabelEncoder,
-)  # Variable encoding and decoding for XGBoost
-import re  # Regular expressions
-import nltk
-from nltk import word_tokenize
-from pathlib import Path
+from sklearn.model_selection import train_test_split  # Data testing
+from wordcloud import WordCloud  # Word visualization
 
 nltk.download("stopwords")
 nltk.download("punkt")
@@ -62,13 +56,12 @@ train_data["lower"] = [
     str(data) for data in train_data.lower
 ]  # converting all to string
 train_data["lower"] = train_data.lower.apply(
-    lambda x: re.sub("[^A-Za-z0-9 ]+", " ", x)
+    lambda x: re.sub("[^A-Za-z0-9 ]+", " ", x),
 )  # regex
 test_data["lower"] = test_data.text.str.lower()  # lowercase
-test_data["lower"] = [str(data)
-                      for data in test_data.lower]  # converting all to string
+test_data["lower"] = [str(data) for data in test_data.lower]  # converting all to string
 test_data["lower"] = test_data.lower.apply(
-    lambda x: re.sub("[^A-Za-z0-9 ]+", " ", x)
+    lambda x: re.sub("[^A-Za-z0-9 ]+", " ", x),
 )  # regex
 
 train_data.head()
@@ -137,11 +130,11 @@ stop_words = stopwords_nltk.words("english")
 stop_words[:5]
 
 bow_counts = CountVectorizer(
-    tokenizer=word_tokenize, stop_words=stop_words, ngram_range=(1, 1)
+    tokenizer=word_tokenize, stop_words=stop_words, ngram_range=(1, 1),
 )
 
 reviews_train, reviews_test = train_test_split(
-    train_data, test_size=0.2, random_state=43
+    train_data, test_size=0.2, random_state=43,
 )
 
 warnings.filterwarnings(
@@ -149,7 +142,7 @@ warnings.filterwarnings(
     message="The parameter 'token_pattern' will not be used since 'tokenizer' is not None",
 )
 warnings.filterwarnings(
-    "ignore", message="Your stop_words may be inconsistent with your preprocessing"
+    "ignore", message="Your stop_words may be inconsistent with your preprocessing",
 )
 
 # Creation of encoding related to train dataset
