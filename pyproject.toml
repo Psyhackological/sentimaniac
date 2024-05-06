@@ -17,6 +17,11 @@ seaborn = "^0.13.2"
 wordcloud = "^1.9.3"
 xgboost = "^2.0.3"
 
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+ruff = "^0.4.1"
+pylint = "^3.1.0"
+
 [tool.ruff.lint]
 select = ["ALL"]
 ignore = ["E501", "INP001", "D203", "D213"]
