@@ -7,9 +7,9 @@ import matplotlib.pyplot as plt  # Plotting properties
 import nltk
 import pandas as pd
 from nltk import word_tokenize
-from sklearn.feature_extraction.text import CountVectorizer  # Data transformation
+from sklearn.feature_extraction.text import \
+    CountVectorizer  # Data transformation
 from sklearn.linear_model import LogisticRegression  # Prediction Model
-
 # Comparison between real and predicted
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split  # Data testing
@@ -23,8 +23,8 @@ csv_path_train = Path("datasets") / Path("Twitter_Data.csv")
 csv_path_test = Path("datasets") / Path("Reddit_Data.csv")
 
 # Read the CSV file
-train = pd.read_csv(csv_path_train, encoding="iso-8859-1")
-test = pd.read_csv(csv_path_test, encoding="iso-8859-1")
+train = pd.read_csv(csv_path_train, encoding="utf-8")
+test = pd.read_csv(csv_path_test, encoding="utf-8")
 
 train.columns = ["text", "Sentiment"]
 test.columns = ["text", "Sentiment"]
@@ -130,11 +130,15 @@ stop_words = stopwords_nltk.words("english")
 stop_words[:5]
 
 bow_counts = CountVectorizer(
-    tokenizer=word_tokenize, stop_words=stop_words, ngram_range=(1, 1),
+    tokenizer=word_tokenize,
+    stop_words=stop_words,
+    ngram_range=(1, 1),
 )
 
 reviews_train, reviews_test = train_test_split(
-    train_data, test_size=0.2, random_state=43,
+    train_data,
+    test_size=0.2,
+    random_state=43,
 )
 
 warnings.filterwarnings(
@@ -142,7 +146,8 @@ warnings.filterwarnings(
     message="The parameter 'token_pattern' will not be used since 'tokenizer' is not None",
 )
 warnings.filterwarnings(
-    "ignore", message="Your stop_words may be inconsistent with your preprocessing",
+    "ignore",
+    message="Your stop_words may be inconsistent with your preprocessing",
 )
 
 # Creation of encoding related to train dataset
