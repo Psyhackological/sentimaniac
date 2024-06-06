@@ -1,3 +1,4 @@
+![SENTIMANIAC](assets/sentimaniac.png)
 # Sentimaniac
 
 *badges and dependencies todo*
@@ -22,9 +23,40 @@ Sentimaniac is an exciting project that harnesses the power of Python's robust m
 - **Scikit-Learn Integration**: Train your sentiment classifier with ease using the renowned Scikit-Learn library.
 - **Interactive Visualization**: Visualize your model's performance and insights with beautiful plots generated using Matplotlib.
 
-### Section 1: Engaging "For Investors"
+---
 
-#### Practical Potential of the Project
+![table_of_contents](assets/table_of_contents.png)
+
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Section 1: Engaging "For Investors"](#section-1-engaging-for-investors)
+  - [Practical Potential of the Project](#practical-potential-of-the-project)
+  - [Unique Advantages and Possibilities](#unique-advantages-and-possibilities)
+  - [Real-World Application Scenarios and Economic Benefits](#real-world-application-scenarios-and-economic-benefits)
+  - [Visuals and Success Stories](#visuals-and-success-stories)
+- [Section 2: Technical "For Developers"](#section-2-technical-for-developers)
+  - [Developer-Friendly Documentation](#developer-friendly-documentation)
+  - [Interesting Technical Aspects Related to Python](#interesting-technical-aspects-related-to-python)
+  - [Data Flow Diagram](#data-flow-diagram)
+  - [Code Examples and Explanations](#code-examples-and-explanations)
+  - [Libraries and Technologies Used](#libraries-and-technologies-used)
+  - [Example Code Fragments and Explanations](#example-code-fragments-and-explanations)
+  - [Datasets Used](#datasets-used)
+- [Section 3: Scientific "For Researchers"](#section-3-scientific-for-researchers)
+  - [Theoretical Aspects of the Project](#theoretical-aspects-of-the-project)
+  - [Explanation of Used Models](#explanation-of-used-models)
+  - [Feature Importance](#feature-importance)
+- [Section 4: Graphs and Charts](#section-4-graphs-and-charts)
+
+---
+
+![investors](assets/investors.png)
+## Section 1: Engaging "For Investors"
+
+### Practical Potential of the Project
 
 Our project leverages advanced machine learning algorithms to provide breakthrough solutions in data analysis. By utilizing powerful predictive models, we can accurately forecast market trends, enabling more informed and profitable investment decisions. This innovation represents a significant leap forward in the realm of data-driven investment strategies.
 
@@ -45,9 +77,11 @@ Imagine being able to predict market sentiment with unprecedented precision. Our
 
 We have included graphical representations of our model’s performance and case studies showcasing successful applications of our technology. For example, our sentiment analysis model achieved an accuracy of over 90% on validation data, demonstrating its robustness and reliability.
 
-### Section 2: Technical "For Developers"
+![developers](assets/developers.png)
 
-#### Developer-Friendly Documentation
+## Section 2: Technical "For Developers"
+
+### Developer-Friendly Documentation
 
 This documentation is written to be easily understandable by fellow developers. It provides insights into the technical aspects of the project, making it easier to integrate and modify the code as needed.
 
@@ -153,10 +187,10 @@ head twitter_validation.csv
 6273,FIFA,Negative,"Hi @EAHelp I’ve had Madeleine McCann in my cellar for the past 13 years and the little sneaky thing just escaped whilst I was loading up some fifa points, she took my card and I’m having to use my paypal account but it isn’t working, can you help me resolve it please?"
 7925,MaddenNFL,Positive,"Thank you @EAMaddenNFL!! 
 ```
+![researchers](assets/researchers.png)
+## Section 3: Scientific "For Researchers"
 
-### Section 3: Scientific "For Researchers"
-
-#### Theoretical Aspects of the Project
+### Theoretical Aspects of the Project
 
 Our project employs various theoretical concepts in machine learning, such as cross-validation and feature importance. Cross-validation allows us to evaluate the model’s performance more reliably by splitting the dataset into multiple training and testing sets, thus reducing overfitting and providing a more accurate measure of the model’s effectiveness.
 
@@ -186,3 +220,13 @@ importances = rf_model.feature_importances_
 ```
 
 By focusing on the most important features, we can enhance the model’s accuracy and reduce computational costs.
+
+---
+
+![graphs](assets/graphs.png)
+
+## Section 4: Graphs and Charts
+
+### Here are some visualisations to better understand the data and model used.
+
+
