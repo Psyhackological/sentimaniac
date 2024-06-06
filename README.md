@@ -27,7 +27,6 @@ Sentimaniac is an exciting project that harnesses the power of Python's robust m
 
 ![table_of_contents](assets/table_of_contents.png)
 
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -48,8 +47,12 @@ Sentimaniac is an exciting project that harnesses the power of Python's robust m
 - [Section 3: Scientific "For Researchers"](#section-3-scientific-for-researchers)
   - [Theoretical Aspects of the Project](#theoretical-aspects-of-the-project)
   - [Explanation of Used Models](#explanation-of-used-models)
+  - [Visual Showcase of Model's and Dataset's Content](#visual-showcase-of-models-and-datasets-content)
   - [Feature Importance](#feature-importance)
 - [Section 4: Graphs and Charts](#section-4-graphs-and-charts)
+  - [Graphs](#graphs)
+  - [Word Clouds](#word-clouds)
+
 
 ---
 
@@ -245,7 +248,8 @@ By focusing on the most important features, we can enhance the model’s accurac
 
 ## Section 4: Graphs and Charts
 
-### Here are some visualisations to better understand the data and model used.
+### Graphs
+#### Here are some visualisations to better understand the data and model used.
 
 ![poisson_density_function.svg](plots/poisson_density_function.svg)
 ![poisson_survival_function.svg](plots/poisson_survival_function.svg)
