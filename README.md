@@ -73,11 +73,17 @@ Imagine being able to predict market sentiment with unprecedented precision. Our
 
 #### Visuals and Success Stories
 
-*(Placeholder for graphics and success stories)*
+We have included graphical representations of our model’s performance and case studies showcasing successful applications of our technology. For example, our sentiment analysis model achieved an accuracy on validation data, demonstrating its robustness and reliability.
 
-We have included graphical representations of our model’s performance and case studies showcasing successful applications of our technology. For example, our sentiment analysis model achieved an accuracy of over 90% on validation data, demonstrating its robustness and reliability.
+#### Below you can see how many Tweets and Redit posts regarding companies are created by people on daily basis.
 
-![developers](assets/developers.png)
+---
+
+![heatmap_of_tweets_distribution_per_branch_and_sentiment.svg](plots/heatmap_of_tweets_distribution_per_branch_and_sentiment.svg)
+
+---
+
+![devs](assets/devs.png)
 
 ## Section 2: Technical "For Developers"
 
@@ -204,6 +210,17 @@ Logistic regression models the probability of a binary outcome based on one or m
 **XGBoost:**
 XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible, and portable. It implements machine learning algorithms under the Gradient Boosting framework, providing parallel tree boosting (also known as GBDT, GBM) that solves many data science problems in a fast and accurate way.
 
+---
+
+### Visual showcase of model's and dataset's content
+
+![distirbution_of_unique_words_in_sentences.svg](plots/distirbution_of_unique_words_in_sentences.svg)
+![distribution_of_average_word_length_in_sentences.svg](plots/distribution_of_average_word_length_in_sentences.svg)
+![distribution_of_sentence_length.svg](plots/distribution_of_sentence_length.svg)
+![distribution_of_word_count_in_sentences.svg](plots/distribution_of_word_count_in_sentences.svg)
+
+
+
 #### Feature Importance
 
 Feature importance analysis helps us understand which variables have the most significant impact on the model's predictions. This is crucial for interpreting the model and improving its performance.
@@ -221,6 +238,7 @@ importances = rf_model.feature_importances_
 
 By focusing on the most important features, we can enhance the model’s accuracy and reduce computational costs.
 
+
 ---
 
 ![graphs](assets/graphs.png)
@@ -229,4 +247,28 @@ By focusing on the most important features, we can enhance the model’s accurac
 
 ### Here are some visualisations to better understand the data and model used.
 
+![poisson_density_function.svg](plots/poisson_density_function.svg)
+![poisson_survival_function.svg](plots/poisson_survival_function.svg)
+![sentiment_distribution_train_set.svg](plots/sentiment_distribution_train_set.svg)
+![sentiment_distribution_val_set.svg](plots/sentiment_distribution_val_set.svg)
+![violin_plot_of_tweets_distribution_per_branch_and_sentiment.svg](plots/violin_plot_of_tweets_distribution_per_branch_and_sentiment.svg)
 
+### Word Clouds
+
+#### Positive
+![word_cloud_positive.svg](plots/word_cloud_positive.svg)
+
+#### Neutral
+![word_cloud_neutral.svg](plots/word_cloud_neutral.svg)
+
+#### Negative
+![word_cloud_negative.svg](plots/word_cloud_negative.svg)
+
+#### Irrelevant
+![word_cloud_irrelevant.svg](plots/word_cloud_irrelevant.svg)
+
+---
+
+#### We all hope you enjoyed the journey and feel free to contact us if needed!
+
+This is [Me](https://github.com/34panda), co-creator of this magnificent project!
