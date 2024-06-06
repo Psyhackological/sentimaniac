@@ -26,7 +26,7 @@ nltk.download("punkt")
 
 # Znalezienie root projectu
 current_path = Path().cwd()
-root_project_path = current_path.parent.parent  # Przechodzimy dwa poziomy w górę
+root_project_path = current_path.parent  # Przechodzimy dwa poziomy w górę
 datasets_path = root_project_path / 'datasets'
 
 # Construct the path to the CSV file
@@ -36,6 +36,9 @@ csv_path_val = datasets_path / "twitter_validation.csv"
 # Read the CSV file
 train = pd.read_csv(csv_path_train, encoding='utf-8', header=None)
 val = pd.read_csv(csv_path_val, encoding='utf-8', header=None)
+
+train.columns=['id','type','sentiment','text']
+val.columns=['id','type','sentiment','text']
 
 train_data = train
 
@@ -114,8 +117,8 @@ val_pred_2 = model2.predict(X_val_bow)
 print("Accuracy: ", accuracy_score(y_val_bow, val_pred_2) * 100)
 
 # Assuming current_path is defined somewhere in your code
-root_project_path = current_path.parent.parent  # Go up two levels
-datasets_path = root_project_path / 'models'
+root_project_path = current_path.parent  # Go up two levels
+datasets_path = root_project_path / 'model'
 
 # Check if the directory exists, if not create it
 if not datasets_path.exists():
@@ -125,5 +128,5 @@ if not datasets_path.exists():
 filename = datasets_path / 'sentimaniac.pkl'
 pickle.dump(model2, open(filename, 'wb'))
 
-pickled_model = pickle.load(open('finalized_model.pkl', 'rb'))
-Val_pred_2 = pickled_model.predict(X_val_bow)
+#pickled_model = pickle.load(open('finalized_model.pkl', 'rb')) # move to main.py
+#Val_pred_2 = pickled_model.predict(X_val_bow) # move to main.py also to make a prediciton from sentence provided by user
