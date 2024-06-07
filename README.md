@@ -9,7 +9,7 @@
 [![Seaborn](https://img.shields.io/badge/Seaborn-0.12.0-purple)](https://numpy.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.3-purple)](https://numpy.org/)
 
-[![Pickle](https://img.shields.io/badge/Pickle-0.0.12-green)](https://numpy.org/)
+[![Pickle](https://img.shields.io/badge/Pickle-0.0.12-5d814c)](https://numpy.org/)
 [![AutoML](https://img.shields.io/badge/AutoMl-Latest_avalible-yellow)](https://numpy.org/)
 
 
