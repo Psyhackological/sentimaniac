@@ -9,9 +9,9 @@
 [![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-purple)](https://numpy.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.3-purple)](https://numpy.org/)
 
+[![Jupyter](https://img.shields.io/badge/Jupyter-1.0.0-F37726)](https://numpy.org/)
 [![Pickle](https://img.shields.io/badge/Pickle-0.0.12-5d814c)](https://numpy.org/)
-[![AutoML](https://img.shields.io/badge/AutoMl-Latest_avalible-yellow)](https://numpy.org/)
-
+[![AutoML](https://img.shields.io/badge/AutoML-Latest_avalible-yellow)](https://numpy.org/)
 
 🎉 Welcome to Sentimaniac - a Python Machine Learning project for analyzing sentiment with flair! 🚀
 
