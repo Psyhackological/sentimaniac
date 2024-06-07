@@ -3,10 +3,10 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-0.24.2-blue)](https://scikit-learn.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-1.3.3-blue)](https://pandas.pydata.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-1.21.2-blue)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.2.1-blue)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.26.4-blue)](https://numpy.org/)
 
-[![Seaborn](https://img.shields.io/badge/Seaborn-0.12.0-purple)](https://numpy.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-purple)](https://numpy.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.3-purple)](https://numpy.org/)
 
 [![Pickle](https://img.shields.io/badge/Pickle-0.0.12-5d814c)](https://numpy.org/)
