@@ -1,13 +1,16 @@
 ![SENTIMANIAC](assets/sentimaniac.png)
 # Sentimaniac
 
-*badges and dependencies todo*
-
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.3-blue)](https://matplotlib.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-0.24.2-blue)](https://scikit-learn.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-1.3.3-blue)](https://pandas.pydata.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-1.21.2-blue)](https://numpy.org/)
+
+[![Seaborn](https://img.shields.io/badge/Seaborn-0.12.0-purple)](https://numpy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.3-purple)](https://numpy.org/)
+
+[![Pickle](https://img.shields.io/badge/Pickle-0.0.12-green)](https://numpy.org/)
+[![AutoML](https://img.shields.io/badge/AutoMl-Latest_avalible-yellow)](https://numpy.org/)
 
 
 🎉 Welcome to Sentimaniac - a Python Machine Learning project for analyzing sentiment with flair! 🚀
