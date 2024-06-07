@@ -260,19 +260,30 @@ By focusing on the most important features, we can enhance the model’s accurac
 ![sentiment_distribution_val_set.svg](plots/sentiment_distribution_val_set.svg)
 ![violin_plot_of_tweets_distribution_per_branch_and_sentiment.svg](plots/violin_plot_of_tweets_distribution_per_branch_and_sentiment.svg)
 
+---
+
 ### Word Clouds
 
-#### Positive
-![word_cloud_positive.svg](plots/word_cloud_positive.svg)
-
-#### Neutral
-![word_cloud_neutral.svg](plots/word_cloud_neutral.svg)
-
-#### Negative
-![word_cloud_negative.svg](plots/word_cloud_negative.svg)
-
-#### Irrelevant
-![word_cloud_irrelevant.svg](plots/word_cloud_irrelevant.svg)
+<div align="center">
+    <table>
+        <tr>
+            <td><strong>Positive</strong></td>
+            <td><strong>Neutral</strong></td>
+        </tr>
+        <tr>
+            <td><img src="plots/word_cloud_positive.svg" alt="Word Cloud Positive"></td>
+            <td><img src="plots/word_cloud_neutral.svg" alt="Word Cloud Neutral"></td>
+        </tr>
+        <tr>
+            <td><strong>Negative</strong></td>
+            <td><strong>Irrelevant</strong></td>
+        </tr>
+        <tr>
+            <td><img src="plots/word_cloud_negative.svg" alt="Word Cloud Negative"></td>
+            <td><img src="plots/word_cloud_irrelevant.svg" alt="Word Cloud Irrelevant"></td>
+        </tr>
+    </table>
+</div>
 
 ---
 
