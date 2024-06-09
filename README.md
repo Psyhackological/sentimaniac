@@ -215,7 +215,7 @@ Logistic regression models the probability of a binary outcome based on one or m
 
 ### Visual showcase of model's and dataset's content
 
-![distirbution_of_unique_words_in_sentences.svg](plots/distirbution_of_unique_words_in_sentences.svg)
+![distribution_of_unique_words_in_sentences.svg](plots/distirbution_of_unique_words_in_sentences.svg)
 ![distribution_of_average_word_length_in_sentences.svg](plots/distribution_of_average_word_length_in_sentences.svg)
 ![distribution_of_sentence_length.svg](plots/distribution_of_sentence_length.svg)
 ![distribution_of_word_count_in_sentences.svg](plots/distribution_of_word_count_in_sentences.svg)
