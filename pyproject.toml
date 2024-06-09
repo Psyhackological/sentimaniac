@@ -18,8 +18,8 @@ wordcloud = "^1.9.3"
 
 [tool.poetry.group.dev.dependencies]
 jupyter = "^1.0.0"
-ruff = "^0.4.1"
-pylint = "^3.1.0"
+ruff = "^0.4.8"
+pylint = "^3.2.3"
 
 [tool.ruff.lint]
 select = ["ALL"]
