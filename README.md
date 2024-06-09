@@ -173,7 +173,7 @@ loaded_model = pickle.load(open('sentimaniac.pkl', 'rb'))
 Our project utilizes datasets comprising social media posts with labeled sentiments. Here are some examples from our datasets:
 
 **Training Data:**
-[twitter_training.csv](datasets/twitter_train.csv)
+[twitter_training.csv](datasets/twitter_training.csv)
 
 ```
 head twitter_training.csv
@@ -186,7 +186,7 @@ head twitter_training.csv
 ```
 
 **Validation Data:**
-[twitter_validation](datasets/twitter_validation.csv)
+[twitter_validation.csv](datasets/twitter_validation.csv)
 ```
 head twitter_validation.csv
 3364,Facebook,Irrelevant,"I mentioned on Facebook that I was struggling for motivation to go for a run the other day, which has been translated by Tom’s great auntie as ‘Hayley can’t get out of bed’ and told to his grandma, who now thinks I’m a lazy, terrible person 🤣"
