@@ -1,17 +1,16 @@
 ![SENTIMANIAC](assets/sentimaniac.png)
 # Sentimaniac
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-0.24.2-blue)](https://scikit-learn.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-2.2.1-blue)](https://pandas.pydata.org/)
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-1.5.0-blue)](https://scikit-learn.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.2.2-blue)](https://pandas.pydata.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-1.26.4-blue)](https://numpy.org/)
 
-[![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-purple)](https://numpy.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.3-purple)](https://numpy.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-purple)](https://seaborn.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.9.0-purple)](https://matplotlib.org/)
 
-[![Jupyter](https://img.shields.io/badge/Jupyter-1.0.0-F37726)](https://numpy.org/)
-[![Pickle](https://img.shields.io/badge/Pickle-0.0.12-5d814c)](https://numpy.org/)
-[![AutoML](https://img.shields.io/badge/AutoML-Latest_avalible-yellow)](https://numpy.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-1.0.0-F37726)](https://jupyter.org/)
+[![Pickle](https://img.shields.io/badge/Pickle-F37726)](https://docs.python.org/3/library/pickle.html#module-pickle)
 
 🎉 Welcome to Sentimaniac - a Python Machine Learning project for analyzing sentiment with flair! 🚀
 
