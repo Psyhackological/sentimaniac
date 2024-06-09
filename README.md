@@ -156,7 +156,6 @@ print("Accuracy: ", accuracy_score(y_test_bow, test_pred) * 100)
 - **pandas**: Data manipulation and analysis
 - **nltk**: Natural language processing
 - **scikit-learn**: Machine learning algorithms and evaluation metrics
-- **xgboost**: Advanced gradient boosting algorithms
 - **pickle**: Model serialization and deserialization
 
 #### Example Code Fragments and Explanations
@@ -208,13 +207,10 @@ Our project employs various theoretical concepts in machine learning, such as cr
 
 #### Explanation of Used Models
 
-We utilized logistic regression and XGBoost classifiers for sentiment analysis. Logistic regression is a simple yet powerful linear model used for binary classification, while XGBoost is a more advanced ensemble learning technique known for its high performance and efficiency in handling large datasets.
+We utilized logistic regression for sentiment analysis. Logistic regression is a simple yet powerful linear model used for binary classification
 
 **Logistic Regression:**
 Logistic regression models the probability of a binary outcome based on one or more predictor variables. It is widely used for its simplicity and interpretability.
-
-**XGBoost:**
-XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible, and portable. It implements machine learning algorithms under the Gradient Boosting framework, providing parallel tree boosting (also known as GBDT, GBM) that solves many data science problems in a fast and accurate way.
 
 ---
 
