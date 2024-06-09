@@ -105,7 +105,7 @@ Our project makes extensive use of Python's powerful libraries for data manipula
 Below is a diagram representing the flow of data through our system:
 
 ```plaintext
-CSV Data ➔ Data Cleaning ➔ Data Analysis ➔ Feature Extraction ➔ Model Training ➔ Evaluation
+CSV Data ➔ Data Analysis ➔ Data Cleaning ➔ Feature Extraction ➔ Model Training ➔ Evaluation
 ```
 
 #### Code Examples and Explanations
